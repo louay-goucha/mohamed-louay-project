@@ -24,9 +24,9 @@ function displayquestions(questions,quizcontainer){
 
 
  		answers.push(  '<label>'+'<input type="radio" name="a'+ i + '" value="'+element+'">'
-            +element+ ':'
-            +questions[i].answers[element] 
-          +'</label>'
+            +element+ ':'+questions[i].answers[element] +'</label>'
+            
+          
  			);}
 
 
@@ -47,7 +47,11 @@ quizcontainer.innerHTML=output.join('')
 
 
 
+function showresult(){
+	var correctAnswers=["a","b","a","a"]
+var ans=document.getElemntsByClassName
 
+}
 
 
 

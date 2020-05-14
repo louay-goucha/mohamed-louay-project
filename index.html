@@ -11,14 +11,34 @@
 <body>
 	<header>javascript quiz</header>
 <div id="quiz">
-	<!-- <div id='question 1'> -->
-		<!-- <h5>Inside which HTML element do we put the JavaScript?</h5> -->
-	<!-- <input type="radio" name="a"><label> </label>
-		<br> -->
-		<!-- <input type="radio" name="a"><label>second try </label><br>
-		<input type="radio" name="a"><label>third try</label><br>
-		<input type="radio" name="a"><label>fourth try</label>
-	</div> -->
+	<div class="question" id='question 1'><h5>What will the following code return: Boolean(10 > 9)?</h5>
+		<label><input type="radio" name="a"class="question1"> a: True </label><br>
+		<label><input type="radio" name="a" class="question1"> b: False </label><br>
+		<label><input type="radio" name="a" class="question1"> c: NaN</label><br>
+		
+	</div>
+
+	<div class="question" id="question2"><h5>The external JavaScript file must contain the script tag?</h5>
+		<label><input type="radio" name="b" class="question1"> a: True</label><br>
+		<label><input type="radio" name="b" class="question1"> b: False </label><br>
+		</div>
+	<div class="question" id = "question 3">	<h5>How do you create a function in JavaScript?</h5>
+		<label><input type="radio" name="c" class="question1">a: function=myfunction() </label><br>
+		<label><input type="radio" name="c" class="question1">b: function:myfunction() </label><br>
+		<label><input type="radio" name="c" class="question1">c: function myfunction() </label><br>
+	</div>
+	<div  class= "question" id = "question 4">	<h5>How do you call a function named 'myFunction'</h5>
+		<label><input type="radio" name="d" class="question1"> a: myFunction() </label><br>
+		<label><input type="radio" name="d" class="question1"> b: call myFunction </label><br>
+		<label><input type="radio" name="d" class="question1"> c: call function myFunction</label><br>
+	</div>
+	<div class="question" id = "question 5">	<h5>How do you call a function named 'myFunction'</h5>
+		<label><input type="radio" name="e" class="question1"> a: myFunction() </label><br>
+		<label><input type="radio" name="e" class="question1"> b: call myFunction </label><br>
+		<label><input type="radio" name="e" class="question1"> c: call function myFunction</label><br>
+	</div>
+
+		
 </div>
 
 
@@ -27,7 +47,7 @@
 
 
 
-<button id="submit" > get result </button>
+<button id="submit" onclick="showresult()"> get result </button>
 <div id="results" ></div>
 </body>
 </html>
